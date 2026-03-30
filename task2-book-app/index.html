@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book List App</title>
+</head>
+<body>
+
+    <h2>Book List</h2>
+
+    <!-- Input Fields -->
+    <input type="text" id="bookName" placeholder="Book Name">
+    <input type="text" id="authorName" placeholder="Author Name">
+    <button onclick="addBook()">Add Book</button>
+
+    <!-- Table -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Book</th>
+                <th>Author</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="bookList"></tbody>
+    </table>
+
+    <script src="book.js"></script>
+</body>
+</html>
